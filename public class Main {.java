@@ -1,18 +1,11 @@
 public class Main {
 
     public static void main(String[] args) {
-
-        double[] weatherTemp = new double[5]; 
-        weatherTemp[0] = 70.5;
-        weatherTemp[1] = 71.1;  
-        weatherTemp[2]= 70.0;
-        weatherTemp[3] = 71.5;
-        weatherTemp[4] = 70.0;
-    
         
-       
+        int[] weatherTemp = {20,20,12,13,15};
+        weatherTemp[2]= 9;
     
-        for(double weather : weatherTemp) {
+        for(int weather : weatherTemp) {
           System.out.println(weather);
           
         }
